@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/resume" element={<Home />}></Route>
         <Route path="/:slug" element={<Single />}></Route>
       </Routes>
     </BrowserRouter>
