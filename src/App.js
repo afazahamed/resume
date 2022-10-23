@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/resume" element={<Home />}></Route>
-        <Route path="/:slug" element={<Single />}></Route>
+        <Route path="/resume/:slug" element={<Single />}></Route>
       </Routes>
     </BrowserRouter>
   );
