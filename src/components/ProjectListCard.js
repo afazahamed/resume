@@ -7,7 +7,7 @@ function ProjectListCard({ projects }) {
     return (
         <>
             <div className="card--project">
-                <Link to={`/${projects.slug.current}`}>{projects.name}</Link>
+                <Link to={`/resume/${projects.slug.current}`}>{projects.name}</Link>
             </div>
         </>
     )
