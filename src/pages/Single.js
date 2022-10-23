@@ -43,7 +43,7 @@ function Single() {
     return (
 
         <div id="container--main">
-            <Link to="/">&#x2190; Go Back</Link>
+            <Link to="/resume">&#x2190; Go Back</Link>
 
             <h1>{projectsList.name}</h1>
             <small>{projectsList._createdAt}</small>
