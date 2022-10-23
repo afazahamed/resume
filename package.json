@@ -1,7 +1,7 @@
 {
+  "homepage": "https://afazahamed.github.io/resume/",
   "name": "react-app",
   "version": "0.1.0",
-  "homepage": "https://afazahamed.github.io/resume/",
   "private": true,
   "dependencies": {
     "@sanity/block-content-to-react": "^3.0.0",
