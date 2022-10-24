@@ -70,14 +70,6 @@ function Home() {
                     <ProjectListCard key={projects._id} projects={projects} />
                 ))}
             </section>
-
-            <section className="section--page">
-                <h2>Medium writings</h2>
-
-                <div className="card--project">
-                    <a href="project1.html"><span>🏆 </span>Currently working on a blog website including CMS using codeigniter backend framework - theinkstry.com</a>
-                </div>
-            </section>
         </div>
     )
 
