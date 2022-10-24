@@ -46,7 +46,7 @@ function Single() {
             <Link to="/resume">&#x2190; Go Back</Link>
 
             <h1>{projectsList.name}</h1>
-            <small>{projectsList._createdAt}</small>
+            {/* <small>{projectsList._createdAt}</small> */}
 
             <BlockContent
                 blocks={projectsList.content}
